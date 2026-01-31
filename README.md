@@ -32,6 +32,9 @@ skills add b-open-io/bsv-skills/create-bap-identity
 skills add b-open-io/bsv-skills/message-signing
 skills add b-open-io/bsv-skills/bsocial
 skills add b-open-io/bsv-skills/key-derivation
+skills add b-open-io/bsv-skills/lookup-bsv-address
+skills add b-open-io/bsv-skills/estimate-transaction-fee
+skills add b-open-io/bsv-skills/check-bsv-price
 ```
 
 For authentication:
