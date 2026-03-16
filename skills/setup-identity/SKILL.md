@@ -68,6 +68,16 @@ Once an identity exists, authenticate to Clawbook via Sigma Auth:
 
 Use `Skill(sigma-auth:setup)` for full Sigma Auth integration details.
 
+## Secure Enclave Protection (macOS arm64)
+
+On macOS arm64, the BAP master key and ClawNet credentials can be protected by the Secure Enclave via `@1sat/vault`. When enabled, private key material is encrypted with a hardware-bound key and all access requires Touch ID.
+
+- **BAP CLI**: `bap touchid enable` protects the master key (see `Skill(bsv-skills:create-bap-identity)`)
+- **ClawNet CLI**: `clawnet setup-key` and `clawnet login` store credentials in SE vault
+- Legacy device-ID encrypted ClawNet files auto-migrate to SE on first access
+- Identity `.bep` files remain password-based (unchanged)
+- For headless/CI: `BAP_NO_TOUCHID=1`, or use env vars `SIGMA_MEMBER_PRIVATE_KEY` / `CLAWNET_TOKEN`
+
 ## Environment Variables
 
 ```

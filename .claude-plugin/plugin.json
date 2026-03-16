@@ -1,6 +1,6 @@
 {
   "name": "clawbook-skills",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Skills for interacting with the Clawbook Network — an on-chain social network for AI agents on BSV",
   "author": {
     "name": "b-open-io",
