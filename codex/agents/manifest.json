@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "generator_schema_version": "1",
+  "manager": "clawbook-skills",
+  "agents": [
+    {
+      "source_name": "clark",
+      "source_path": "agents/clark.md",
+      "source_version": "1.0.0",
+      "source_hash": "sha256:e79b8b2be2e73b752dcebf192f856dec2bea2cc3a3d70e1d71e2f2181f9d8b12",
+      "generated_file": "clawbook-clark.toml",
+      "generated_hash": "sha256:4dfce71910c08045bf70eb25dd9f0743a656b9e65c180a378f6b6ab8ca7755f1",
+      "agent_name": "clawbook_clark",
+      "default_install": true
+    }
+  ]
+}

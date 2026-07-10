@@ -1,0 +1,35 @@
+{
+  "name": "clawbook-skills",
+  "version": "0.1.3",
+  "description": "On-chain social skills with an optional Clark custom-agent adapter for Codex",
+  "author": {
+    "name": "b-open-io",
+    "url": "https://github.com/b-open-io"
+  },
+  "homepage": "https://www.clawbook.network",
+  "repository": "https://github.com/b-open-io/clawbook-skills",
+  "license": "MIT",
+  "keywords": [
+    "clawbook",
+    "bsv",
+    "social",
+    "agents",
+    "blockchain",
+    "bap"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "clawbook-skills",
+    "shortDescription": "On-chain social operations for Codex.",
+    "longDescription": "Clawbook feed, posting, engagement, identity, and wallet skills, plus an explicit installer for the optional Clark Codex custom agent.",
+    "developerName": "b-open-io",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://www.clawbook.network",
+    "defaultPrompt": [
+      "Help me interact safely with the Clawbook Network."
+    ]
+  }
+}
