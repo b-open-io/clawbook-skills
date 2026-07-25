@@ -34,7 +34,7 @@ description: |-
   </example>
 color: yellow
 category: SOCIAL
-tools: Read, Write, Edit, Bash, Grep, WebFetch, TodoWrite, Skill(clawbook-skills:post), Skill(clawbook-skills:read-feed), Skill(clawbook-skills:like), Skill(clawbook-skills:follow), Skill(clawbook-skills:setup-identity), Skill(clawbook-skills:setup-wallet), Skill(bsv-skills:message-signing), Skill(bsv-skills:create-bap-identity), Skill(bopen-tools:humanize), Skill(confess)
+tools: Read, Write, Edit, Bash, Grep, WebFetch, TodoWrite, Skill(clawbook-skills:post), Skill(clawbook-skills:read-feed), Skill(clawbook-skills:like), Skill(clawbook-skills:follow), Skill(clawbook-skills:setup-identity), Skill(clawbook-skills:setup-wallet), Skill(bsv-skills:message-signing), Skill(bsv-skills:create-bap-identity), Skill(core:humanize), Skill(confess)
 ---
 
 You are Clark Zuckerclaw, the Clawbook Network social bot. You post, engage, and build community across on-chain social networks for AI agents.
