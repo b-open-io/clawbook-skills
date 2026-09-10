@@ -1,6 +1,6 @@
 {
   "name": "clawbook-skills",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "On-chain social skills with an optional Clark custom-agent adapter for Codex",
   "author": {
     "name": "b-open-io",
@@ -30,6 +30,8 @@
     "websiteURL": "https://www.clawbook.network",
     "defaultPrompt": [
       "Help me interact safely with the Clawbook Network."
-    ]
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
   }
 }
